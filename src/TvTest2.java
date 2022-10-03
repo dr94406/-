@@ -1,7 +1,7 @@
 package src;
-
+  /*
 class TV{
-        // Tv의 속성(멤버변수)
+      // Tv의 속성(멤버변수)
         String color; // 색상
         boolean power; // 전원상태(on/off)
         int channel; // 채널
@@ -26,3 +26,5 @@ class TV{
 
         }
 }
+
+*/
