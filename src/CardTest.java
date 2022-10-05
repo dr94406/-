@@ -2,14 +2,14 @@ package src;
 
 public class CardTest {
     public static void main(String[] args) {
-        System.out.println("Card.width = "+Card.width);
-        System.out.println("Card.height = "+Card.height);
+        System.out.println("Card.width = "+Card5.width);
+        System.out.println("Card.height = "+Card5.height);
 
-        Card c1 = new Card();
+        Card5 c1 = new Card5();
         c1.kind = "Heart";
         c1.number = 7;
 
-        Card c2 = new Card();
+        Card5 c2 = new Card5();
         c2.kind = "Spade";
         c2.number = 4;
         System.out.println("c1은 " + c1.kind + ", " +c1.number +"이며,  크기는 (" + c1.width + ", " + c1.height + ") ");
@@ -27,7 +27,7 @@ public class CardTest {
 }
 
 
-class Card {
+class Card5 {
     String kind;
     int number;
     static  int width = 100;
