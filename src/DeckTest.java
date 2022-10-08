@@ -60,6 +60,9 @@ class Card {
         this.number = number;
     }
 
+    public Card(String heart, int number) {
+    }
+
     public String toString () {
         String [] kinds = {"", "CLOVER", "HEART", "DIAMOND", "SPADE"};
         String numbers = "0123456789XJQK"; // 숫자 10은 X로 표현
