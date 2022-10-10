@@ -11,6 +11,9 @@ class Car {
         gearType = g;
         door = d;
     }
+
+    public void drive() {
+    }
 }
 class CarTest {
     public static void main(String[] args) {
