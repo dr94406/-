@@ -8,13 +8,13 @@ class Product {
         ++count;
         serialNo = count;
     }
-    public Product() {} // 기본 생성자, 생략 가능
+    public Product(int i) {} // 기본 생성자, 생략 가능
 }
 class ProductTest {
     public static void main(String[] args) {
-        Product p1 = new Product();
-        Product p2 = new Product();
-        Product p3 = new Product();
+        Product p1 = new Product(100);
+        Product p2 = new Product(100);
+        Product p3 = new Product(100);
 
         System.out.println("p1의 제품번호(serial no)는 " + p1.serialNo);
         System.out.println("p2의 제품번호(serial no)는 " + p2.serialNo);
