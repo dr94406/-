@@ -6,9 +6,7 @@ public class SuperTest {
         c.method();
     }
 }
-class Parent {
-    int x=10;
-}
+
 class Child extends Parent {
     void method() {
         System.out.println("x=" + x);
